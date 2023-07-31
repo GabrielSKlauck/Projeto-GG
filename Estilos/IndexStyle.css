@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('Fontes/Poppins-Medium.ttf');
+}
+
+body{
+    color: black;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+}
+
+header{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: -3px;
+
+    background: white;
+}
+
+header > img{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 10px;
+    top: -2px;
+    float: left;
+
+}
+
+#nome_topo{
+    position: relative;
+    left: 80px;
+    width: 82px;
+    top: 2px;
+    float: left;
+}
+
+.menu{
+    text-align: center;
+    position: relative;
+    /* top: 2px; */ 
+}
+
+.menu > li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 70px;
+    padding: 8px;
+}
+
+.menu > li > a{
+    color: #748A9A;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.btn_topo{  
+    position: relative;
+    float: right;
+    top: -84px;
+}
+
+.btn_topo > li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 40px;
+    background-color: #F1396D;;
+    padding: 8px;
+    border-radius: 35px;
+    transition: 0.5s;
+}
+
+.btn_topo > li > a{
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    
+}
+
+.btn_topo > li:hover{
+    background-color: black;
+}
+
+.bloco1{
+    margin-top: 57px;
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+.bloco1 > img{
+    position: absolute;
+    width: 711.11px;
+    height: 399.9375px;
+    left: 30px;
+    top: 180px;
+}
+
+.bloco1 > h2{
+    position: absolute;
+    width: 698px;
+    height: 72px;
+    left: 750px;
+    top: 94px;
+
+    font-size: 48px;
+    line-height: 72px;
+} 
+
+.bloco1 > h1{
+    position: absolute;
+    width: 698px;
+    height: 192px;
+    left: 745px;
+    top: 70px;
+
+    font-size: 128px;
+    line-height: 192px;
+}
+
+.bloco1 > div > a > p{
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 1206px;
+    top: 330px;
+
+    font-size: 48px;
+    line-height: 72px;
+
+    background-color: #F1396D;
+    border-radius: 30px;
+    padding: 15px;
+    color: white; 
+    transition: 0.8s;
+}
+
+.bloco1 > div > a > p:hover{
+    background-color: #0004ff;
+}
+
+.bloco2{
+    width: 100%;
+    height: 700px;
+    background-color: #FBC5D8;
+}
+
+.bloco2 > img{
+    position: absolute;
+    width: 403px;
+    height: 403px;
+    left: 93px;
+    top: 830px;
+    border-radius: 44px;
+}
+
+.bloco2 > h1{
+    position: absolute;
+    width: 100%;
+    height: 72px;
+    text-align: center;
+
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.bloco2 > h2{
+    position: absolute;
+    width: 311px;
+    height: 72px;
+    left: 553px;
+    top: 720px;
+
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.bloco2 > p{
+    position: absolute;
+    width: 688px;
+    height: 284px;
+    left: 553px;
+    top: 800px;
+
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.bloco3{
+    width: 100%;
+    height: 550px;
+    background-color: #FCD9E5;
+}
+
+.bloco3 > img{
+    position: absolute;
+    width: 403px;
+    height: 403px;
+    left: 1165px;
+    top: 1341px;
+    border-radius: 44px;
+}
+
+.bloco3 > h2{
+    position: absolute;
+    width: 501px;
+    height: 72px;
+    left: 125px;
+    top: 1283px;
+
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.bloco3 > p{
+    position: absolute;
+    width: 688px;
+    height: 284px;
+    left: 126px;
+    top: 1370px;
+    
+    font-size: 32px;
+    line-height: 48px; 
+}
+
+.bloco3 > div > a > p{
+    position: absolute;
+    width: 250px;
+    height: 75px;
+    left: 259px;
+    top: 1664px;
+
+    font-size: 48px;
+    line-height: 72px;
+
+    background-color: #F1396D;
+    border-radius: 30px;
+    padding: 15px;
+    color: white; 
+    transition: 0.8s;
+}
+
+.bloco3 > div > a > p:hover{
+    background-color: #0004ff;
+}
+
+.bloco4{
+    width: 100%;
+    height: 550px;
+    background-color: #FFEAF2;
+}
+
+.bloco4 > img{
+    position: absolute;
+    width: 403px;
+    height: 366px;
+    left: 94px;
+    top: 1961px;
+    border-radius: 44px;
+}
+
+.bloco4 > h2{
+    position: absolute;
+    width: 351px;
+    height: 72px;
+    left: 665px;
+    top: 1897px;
+
+    font-size: 48px;
+    line-height: 72px;
+}
+
+.bloco4 > p{
+    position: absolute;
+    width: 688px;
+    height: 284px;
+    left: 665px;
+    top: 1986px;
+
+    font-size: 32px;
+    line-height: 48px;
+}
+
+footer{
+    height: 50px;
+}
+
+footer > p{
+    position: relative;
+    text-align: center;
+    width: 100%;
+    margin: 1px;
+}
+
+footer > hr{
+    width: 250px;
+    height: 4px;
+    background-color: black;
+    border-radius: 100px;
+}
